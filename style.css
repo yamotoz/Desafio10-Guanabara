@@ -1,0 +1,128 @@
+@charset "UTF-8";
+ @font-face {
+    font-family: padrao;
+    src: url(fontes/Game\ Of\ Squids.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+ }
+ :root{
+    --cor0:#205B73;
+    --cor1:#307B8C;
+    --cor2:#020D0C;
+    --cor3:#378C84;
+     font-family: Arial, Helvetica, Verdana, sans-serif;
+
+ }
+ *{
+    padding: 6px;
+    margin: 0px;
+ }
+ body{
+    background-image: linear-gradient(to bottom,#205B73,#307B8C,#020D0C,#378C84);
+    text-align: center;
+    margin: auto;
+    
+ }
+.titulo{
+    color: var(--cor3); 
+    background-color: #020D0C;
+    font-family: padrao;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+}
+.elenco{
+    margin: auto;
+    color: white;
+    text-align: center;
+    font-size: 21px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+.inicioLink{
+    color: white;
+    height: 0px;
+    font-family: 'Times New Roman';
+    
+}
+.inicioLink:hover{
+    color: rgb(226, 217, 217);
+    
+    
+}
+
+
+.home:hover{
+   background-color: rgba(71, 63, 63, 0.674);
+   
+}
+.paragrafos{
+    font-size: 20px;
+}
+p{
+    margin: 15px 0px;
+    text-align: left;
+    text-align: justify;
+    font-size: 1.1em;
+}
+.font{
+   color: var(--cor3); 
+   text-align: left;
+   font-family: padrao;
+   font-style: normal;
+   font-weight: normal;
+   background-color: #020D0C;
+   
+}
+#Main > article{
+   background-color: white;
+  
+   padding: 0%;
+   border-radius: 10px;
+   size: 0cap;
+   height: 5%;
+   margin: auto;
+   border-radius: 30px;
+   box-shadow: 5px 4px 14px black;
+   min-width: 320px;
+   max-width: 1300px;
+   
+}
+footer{
+    background-color: var(--cor1);
+    color: #020D0C;
+    border-radius: 10px 10px 10px 10px;
+    max-width: 1210px;
+    margin: auto;
+    min-width: 320px;
+    padding: 0;
+    box-shadow: 2px 3px 11px black;
+}
+ul > li{
+    font-size: 16px;
+}
+img{
+    width: 50%;
+    /*a melhor forma de deixar a imagem ou o video responsivo meu amigo é configurando de cara o tmaanho
+    que a imagem ou o video vai ter*/
+}
+iframe{
+    width: 95%;
+}
+.finaltitulo{
+    border-radius: 10px 10px 0px 0px;
+    background-color: #378C84;
+    text-align: left;
+    box-shadow: 1px 0px 12px black;
+}
+ul{
+    text-align: left;
+    list-style-position: inside;
+    columns: 2;
+    
+}
+
+
